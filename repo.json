@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "user.vainstains",
+  "name": "Vainstain's Mods",
+  "owner": "Vainstains",
+  "contactUrl": "https://github.com/Vainstains",
+  "infoUrl": "https://github.com/Vainstains",
+  "packages": [
+    {
+      "id": "user.vainstains.vainsabers",
+      "name": "VainSabers",
+      "summary": "A blursaber mod for Beat Saber, like ReeSabers but worse.",
+      "category": "Cosmetic",
+      "author": "Vainstains",
+      "sourceUrl": "https://github.com/Vainstains/VainSabers",
+      "issuesUrl": "https://github.com/Vainstains/VainSabers/issues",
+      "versions": [
+        {
+          "version": "0.0.5",
+          "platforms": [
+            "universalpc"
+          ],
+          "gameVersions": [
+            "1.40.8"
+          ],
+          "dependencies": [],
+          "downloadUrl": "https://github.com/Vainstains/VainSabers/releases/download/v0.0.5/VainSabers-0.0.5-bs1.40.8-34ce50e-bs1.40.8.zip",
+          "fileSizeBytes": 234383,
+          "hash": {
+            "algorithm": "sha256",
+            "value": "89429e4cbe156f52ad1a4567f0704c12b002faed7e87255f52e4f357f4e2f7e8"
+          },
+          "files": [
+            {
+              "path": "Plugins/VainSabers.dll",
+              "hash": {
+                "algorithm": "sha256",
+                "value": "cf641fe524485d42a6359be934972ef9abb7919a1149aa78211207a09f06fd35"
+              }
+            },
+            {
+              "path": "Plugins/VainSabers.pdb",
+              "hash": {
+                "algorithm": "sha256",
+                "value": "8d693d562660f4e301928586288241cea51a3386e33d8cd80f4d930c5b25d09c"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
